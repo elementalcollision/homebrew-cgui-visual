@@ -1,6 +1,6 @@
 cask "cgui-visual" do
-  version "0.2.0"
-  sha256 "3e7d0886b7b7b97084d577708a168841dd2fb6f96e3e9bc97480fdb3b72f2f6e"
+  version "0.2.1"
+  sha256 "192b821d5a361ad659f5fc1950c4a6c2f01e7b21d5b93cad61d2148daa8cd10b"
 
   url "https://github.com/elementalcollision/cgui-visual/releases/download/v#{version}/cgui_#{version}_universal.dmg"
   name "cgui-visual"
