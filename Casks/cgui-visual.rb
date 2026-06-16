@@ -1,6 +1,6 @@
 cask "cgui-visual" do
-  version "0.2.4"
-  sha256 "cd816e5ef83b7edf4682c486c4a6a2949549574e28c04c3ef924999f0e85f15f"
+  version "0.5.0"
+  sha256 "22bdeb10ed1c23a1256c875dde88ea812dc73d94e26fafe41d4fcae993f066a3"
 
   url "https://github.com/elementalcollision/cgui-visual/releases/download/v#{version}/cgui_#{version}_universal.dmg"
   name "cgui-visual"
@@ -13,7 +13,7 @@ cask "cgui-visual" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "cgui.app"
 
